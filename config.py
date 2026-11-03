@@ -19,13 +19,14 @@ class Config:
     
     # Database settings
     # Local dev: SQLite in instance folder. Production/HF Spaces: set DATABASE_URL to a shared DB (e.g. PostgreSQL).
-    _is_prod = os.environ.get('FLASK_ENV') == 'production' or bool(os.environ.get('VERCEL'))
+    _is_serverless = bool(os.environ.get('VERCEL')) or bool(os.environ.get('VERCEL_ENV')) or bool(os.environ.get('AWS_LAMBDA_FUNCTION_NAME'))
+    _is_prod = os.environ.get('FLASK_ENV') == 'production' or _is_serverless
     SESSION_COOKIE_HTTPONLY = True
     SESSION_COOKIE_SECURE = _is_prod
     SESSION_COOKIE_SAMESITE = 'None' if _is_prod else 'Lax'
 
     # Database settings
-    if os.environ.get('VERCEL'):
+    if _is_serverless:
         DB_PATH = '/tmp/database.db'
         UPLOAD_FOLDER = Path('/tmp/uploads')
         MODEL_CACHE_DIR = Path('/tmp/model_cache')
