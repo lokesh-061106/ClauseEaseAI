@@ -3,6 +3,7 @@ Text Preprocessing Service
 Handles text cleaning, normalization, and preparation for NLP tasks
 """
 
+import os
 import re
 import nltk
 from typing import List, Dict
@@ -10,9 +11,22 @@ from pathlib import Path
 
 # Download required NLTK data (be tolerant of different exceptions)
 try:
-    nltk.data.find('tokenizers/punkt')
-except Exception:
-    nltk.download('punkt', quiet=True)
+    if os.environ.get('VERCEL'):
+        nltk_data_dir = '/tmp/nltk_data'
+        try:
+            os.makedirs(nltk_data_dir, exist_ok=True)
+        except Exception:
+            pass
+        if nltk_data_dir not in nltk.data.path:
+            nltk.data.path.append(nltk_data_dir)
+        nltk.download('punkt', download_dir=nltk_data_dir, quiet=True)
+    else:
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except Exception:
+            nltk.download('punkt', quiet=True)
+except Exception as e:
+    print(f'NLTK download notice: {e}')
 
 
 class TextPreprocessor:

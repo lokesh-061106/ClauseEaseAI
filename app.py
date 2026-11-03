@@ -30,7 +30,12 @@ from services.summarization import get_summarization_service
 from services.glossary import get_glossary_service
 
 # Initialize Flask app
-app = Flask(__name__)
+BASE_DIR = Path(__file__).parent.absolute()
+app = Flask(
+    __name__,
+    template_folder=str(BASE_DIR / 'templates'),
+    static_folder=str(BASE_DIR / 'static')
+)
 app.config.from_object(get_config())
 
 # Initialize extensions

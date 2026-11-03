@@ -31,7 +31,10 @@ class SummarizationService:
         self.cache_dir = cache_dir or './model_cache'
         
         # Create cache directory
-        Path(self.cache_dir).mkdir(parents=True, exist_ok=True)
+        try:
+            Path(self.cache_dir).mkdir(parents=True, exist_ok=True)
+        except Exception:
+            pass
         
         # Determine device and load model if AI deps available
         if _AI_AVAILABLE:
