@@ -9,24 +9,7 @@ import nltk
 from typing import List, Dict
 from pathlib import Path
 
-# Download required NLTK data (be tolerant of different exceptions)
-try:
-    if os.environ.get('VERCEL'):
-        nltk_data_dir = '/tmp/nltk_data'
-        try:
-            os.makedirs(nltk_data_dir, exist_ok=True)
-        except Exception:
-            pass
-        if nltk_data_dir not in nltk.data.path:
-            nltk.data.path.append(nltk_data_dir)
-        nltk.download('punkt', download_dir=nltk_data_dir, quiet=True)
-    else:
-        try:
-            nltk.data.find('tokenizers/punkt')
-        except Exception:
-            nltk.download('punkt', quiet=True)
-except Exception as e:
-    print(f'NLTK download notice: {e}')
+# NLTK downloads are handled lazily if needed
 
 
 class TextPreprocessor:
@@ -78,13 +61,19 @@ class TextPreprocessor:
         if self.nlp:
             doc = self.nlp(text)
             return [sent.text.strip() for sent in doc.sents]
-        return nltk.sent_tokenize(text)
+        try:
+            return nltk.sent_tokenize(text)
+        except Exception:
+            return [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if s.strip()]
     
     def tokenize(self, text: str) -> List[str]:
         """
         Tokenize text into words using NLTK
         """
-        return nltk.word_tokenize(text)
+        try:
+            return nltk.word_tokenize(text)
+        except Exception:
+            return text.split()
     
     def extract_entities(self, text: str) -> List[Dict[str, str]]:
         """
