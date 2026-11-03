@@ -1,0 +1,1001 @@
+sentence_length,sentence_position,has_obligation,has_permission,has_prohibition,has_condition,has_number,has_date,has_money,document_id,sentence,label
+9,0.0,1,0,0,0,1,0,0,0,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,0,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,0,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,0,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,1,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,1,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,1,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,2,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,2,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,2,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,3,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,3,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,3,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,3,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,4,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,4,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,4,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,5,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,5,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,5,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,6,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,6,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,6,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,6,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,7,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,7,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,7,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,8,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,8,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,8,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,9,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,9,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,9,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,9,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,10,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,10,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,10,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,11,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,11,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,11,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,12,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,12,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,12,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,12,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,13,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,13,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,13,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,14,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,14,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,14,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,15,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,15,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,15,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,15,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,16,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,16,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,16,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,17,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,17,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,17,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,18,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,18,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,18,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,18,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,19,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,19,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,19,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,20,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,20,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,20,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,21,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,21,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,21,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,21,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,22,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,22,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,22,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,23,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,23,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,23,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,24,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,24,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,24,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,24,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,25,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,25,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,25,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,26,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,26,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,26,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,27,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,27,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,27,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,27,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,28,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,28,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,28,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,29,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,29,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,29,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,30,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,30,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,30,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,30,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,31,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,31,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,31,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,32,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,32,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,32,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,33,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,33,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,33,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,33,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,34,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,34,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,34,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,35,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,35,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,35,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,36,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,36,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,36,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,36,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,37,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,37,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,37,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,38,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,38,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,38,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,39,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,39,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,39,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,39,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,40,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,40,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,40,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,41,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,41,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,41,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,42,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,42,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,42,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,42,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,43,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,43,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,43,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,44,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,44,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,44,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,45,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,45,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,45,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,45,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,46,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,46,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,46,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,47,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,47,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,47,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,48,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,48,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,48,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,48,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,49,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,49,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,49,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,50,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,50,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,50,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,51,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,51,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,51,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,51,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,52,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,52,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,52,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,53,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,53,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,53,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,54,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,54,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,54,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,54,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,55,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,55,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,55,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,56,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,56,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,56,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,57,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,57,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,57,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,57,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,58,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,58,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,58,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,59,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,59,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,59,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,60,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,60,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,60,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,60,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,61,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,61,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,61,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,62,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,62,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,62,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,63,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,63,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,63,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,63,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,64,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,64,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,64,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,65,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,65,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,65,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,66,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,66,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,66,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,66,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,67,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,67,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,67,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,68,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,68,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,68,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,69,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,69,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,69,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,69,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,70,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,70,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,70,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,71,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,71,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,71,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,72,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,72,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,72,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,72,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,73,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,73,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,73,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,74,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,74,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,74,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,75,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,75,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,75,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,75,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,76,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,76,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,76,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,77,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,77,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,77,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,78,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,78,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,78,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,78,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,79,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,79,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,79,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,80,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,80,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,80,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,81,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,81,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,81,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,81,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,82,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,82,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,82,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,83,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,83,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,83,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,84,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,84,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,84,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,84,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,85,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,85,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,85,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,86,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,86,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,86,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,87,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,87,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,87,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,87,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,88,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,88,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,88,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,89,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,89,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,89,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,90,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,90,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,90,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,90,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,91,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,91,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,91,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,92,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,92,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,92,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,93,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,93,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,93,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,93,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,94,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,94,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,94,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,95,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,95,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,95,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,96,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,96,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,96,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,96,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,97,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,97,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,97,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,98,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,98,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,98,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,99,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,99,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,99,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,99,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,100,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,100,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,100,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,101,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,101,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,101,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,102,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,102,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,102,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,102,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,103,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,103,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,103,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,104,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,104,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,104,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,105,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,105,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,105,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,105,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,106,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,106,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,106,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,107,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,107,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,107,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,108,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,108,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,108,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,108,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,109,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,109,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,109,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,110,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,110,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,110,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,111,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,111,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,111,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,111,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,112,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,112,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,112,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,113,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,113,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,113,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,114,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,114,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,114,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,114,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,115,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,115,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,115,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,116,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,116,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,116,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,117,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,117,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,117,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,117,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,118,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,118,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,118,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,119,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,119,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,119,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,120,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,120,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,120,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,120,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,121,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,121,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,121,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,122,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,122,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,122,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,123,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,123,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,123,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,123,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,124,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,124,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,124,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,125,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,125,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,125,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,126,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,126,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,126,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,126,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,127,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,127,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,127,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,128,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,128,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,128,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,129,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,129,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,129,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,129,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,130,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,130,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,130,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,131,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,131,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,131,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,132,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,132,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,132,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,132,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,133,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,133,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,133,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,134,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,134,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,134,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,135,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,135,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,135,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,135,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,136,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,136,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,136,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,137,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,137,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,137,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,138,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,138,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,138,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,138,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,139,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,139,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,139,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,140,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,140,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,140,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,141,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,141,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,141,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,141,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,142,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,142,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,142,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,143,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,143,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,143,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,144,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,144,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,144,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,144,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,145,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,145,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,145,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,146,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,146,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,146,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,147,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,147,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,147,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,147,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,148,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,148,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,148,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,149,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,149,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,149,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,150,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,150,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,150,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,150,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,151,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,151,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,151,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,152,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,152,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,152,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,153,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,153,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,153,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,153,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,154,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,154,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,154,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,155,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,155,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,155,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,156,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,156,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,156,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,156,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,157,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,157,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,157,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,158,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,158,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,158,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,159,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,159,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,159,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,159,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,160,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,160,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,160,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,161,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,161,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,161,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,162,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,162,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,162,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,162,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,163,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,163,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,163,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,164,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,164,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,164,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,165,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,165,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,165,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,165,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,166,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,166,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,166,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,167,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,167,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,167,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,168,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,168,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,168,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,168,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,169,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,169,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,169,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,170,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,170,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,170,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,171,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,171,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,171,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,171,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,172,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,172,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,172,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,173,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,173,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,173,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,174,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,174,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,174,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,174,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,175,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,175,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,175,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,176,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,176,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,176,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,177,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,177,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,177,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,177,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,178,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,178,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,178,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,179,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,179,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,179,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,180,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,180,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,180,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,180,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,181,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,181,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,181,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,182,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,182,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,182,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,183,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,183,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,183,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,183,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,184,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,184,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,184,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,185,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,185,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,185,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,186,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,186,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,186,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,186,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,187,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,187,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,187,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,188,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,188,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,188,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,189,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,189,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,189,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,189,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,190,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,190,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,190,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,191,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,191,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,191,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,192,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,192,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,192,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,192,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,193,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,193,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,193,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,194,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,194,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,194,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,195,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,195,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,195,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,195,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,196,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,196,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,196,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,197,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,197,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,197,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,198,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,198,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,198,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,198,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,199,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,199,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,199,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,200,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,200,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,200,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,201,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,201,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,201,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,201,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,202,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,202,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,202,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,203,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,203,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,203,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,204,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,204,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,204,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,204,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,205,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,205,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,205,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,206,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,206,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,206,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,207,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,207,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,207,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,207,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,208,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,208,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,208,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,209,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,209,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,209,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,210,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,210,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,210,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,210,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,211,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,211,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,211,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,212,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,212,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,212,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,213,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,213,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,213,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,213,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,214,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,214,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,214,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,215,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,215,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,215,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,216,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,216,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,216,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,216,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,217,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,217,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,217,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,218,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,218,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,218,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,219,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,219,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,219,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,219,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,220,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,220,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,220,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,221,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,221,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,221,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,222,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,222,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,222,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,222,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,223,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,223,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,223,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,224,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,224,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,224,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,225,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,225,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,225,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,225,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,226,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,226,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,226,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,227,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,227,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,227,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,228,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,228,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,228,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,228,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,229,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,229,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,229,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,230,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,230,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,230,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,231,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,231,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,231,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,231,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,232,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,232,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,232,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,233,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,233,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,233,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,234,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,234,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,234,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,234,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,235,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,235,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,235,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,236,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,236,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,236,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,237,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,237,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,237,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,237,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,238,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,238,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,238,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,239,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,239,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,239,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,240,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,240,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,240,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,240,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,241,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,241,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,241,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,242,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,242,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,242,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,243,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,243,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,243,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,243,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,244,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,244,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,244,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,245,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,245,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,245,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,246,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,246,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,246,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,246,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,247,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,247,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,247,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,248,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,248,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,248,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,249,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,249,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,249,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,249,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,250,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,250,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,250,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,251,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,251,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,251,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,252,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,252,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,252,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,252,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,253,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,253,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,253,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,254,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,254,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,254,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,255,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,255,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,255,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,255,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,256,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,256,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,256,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,257,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,257,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,257,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,258,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,258,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,258,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,258,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,259,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,259,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,259,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,260,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,260,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,260,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,261,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,261,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,261,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,261,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,262,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,262,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,262,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,263,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,263,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,263,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,264,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,264,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,264,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,264,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,265,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,265,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,265,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,266,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,266,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,266,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,267,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,267,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,267,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,267,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,268,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,268,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,268,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,269,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,269,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,269,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,270,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,270,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,270,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,270,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,271,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,271,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,271,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,272,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,272,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,272,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,273,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,273,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,273,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,273,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,274,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,274,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,274,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,275,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,275,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,275,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,276,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,276,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,276,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,276,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,277,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,277,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,277,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,278,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,278,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,278,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,279,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,279,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,279,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,279,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,280,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,280,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,280,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,281,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,281,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,281,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,282,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,282,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,282,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,282,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,283,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,283,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,283,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,284,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,284,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,284,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,285,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,285,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,285,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,285,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,286,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,286,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,286,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,287,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,287,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,287,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,288,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,288,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,288,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,288,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,289,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,289,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,289,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,290,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,290,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,290,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,291,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,291,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,291,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,291,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,292,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,292,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,292,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,293,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,293,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,293,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,294,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,294,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,294,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,294,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,295,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,295,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,295,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,296,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,296,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,296,The landlord may evict the tenant for non-payment.,0
+9,0.0,1,0,0,0,1,0,0,297,The Supplier shall deliver the goods within 15 days.,1
+6,0.25,0,1,0,0,0,1,0,297,The Purchaser may reject defective goods.,0
+8,0.5,1,0,0,1,0,0,0,297,"If rejected, the Supplier must refund the payment.",0
+5,0.75,0,0,0,0,1,0,1,297,"The total amount is $10,000.",1
+10,0.0,0,0,0,0,0,0,0,298,This agreement is governed by the laws of New York.,1
+6,0.3333333333333333,1,0,0,0,0,0,0,298,Arbitration shall be held in Manhattan.,0
+8,0.6666666666666666,1,0,0,0,0,0,0,298,Neither party shall be liable for indirect damages.,1
+11,0.0,1,0,0,0,0,0,0,299,The tenant must pay rent on the 1st of every month.,1
+9,0.3333333333333333,0,0,0,0,1,0,1,299,A late fee of $50 applies after 5 days.,0
+8,0.6666666666666666,0,1,0,0,0,1,0,299,The landlord may evict the tenant for non-payment.,0

@@ -1,12 +1,23 @@
-import streamlit as st
-import textstat
-import re
+"""
+Contract Language Simplifier - Main Flask Application
+Production-ready web application for simplifying legal contracts
+"""
 
-st.set_page_config(page_title="Contract Simplifier", layout="wide")
+import os
+import time
+from datetime import datetime
+from pathlib import Path
+from flask import Flask, render_template, request, jsonify, redirect, url_for, flash, session
+from flask_jwt_extended import (
+    JWTManager, create_access_token, jwt_required, 
+    get_jwt_identity, set_access_cookies, unset_jwt_cookies
+)
+from werkzeug.utils import secure_filename
+from dotenv import load_dotenv
 
-st.title("📄 Contract Language Simplifier")
+# Load environment variables
+load_dotenv()
 
-<<<<<<< HEAD
 # Import models and config
 from models import db, User, SimplificationRequest, Glossary
 from config import get_config
@@ -20,49 +31,24 @@ from services.glossary import get_glossary_service
 
 # Initialize Flask app
 app = Flask(__name__)
-app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 app.config.from_object(get_config())
-
-# Production / Hugging Face Spaces: require shared database and secure secrets
-if os.environ.get('FLASK_ENV') == 'production':
-    missing = []
-    if not os.environ.get('DATABASE_URL'):
-        missing.append('DATABASE_URL (use a shared PostgreSQL, e.g. Neon or Supabase)')
-    sk = app.config.get('SECRET_KEY') or ''
-    if not sk or sk.startswith('dev-'):
-        missing.append('SECRET_KEY (set a strong random value in Space secrets)')
-    jk = app.config.get('JWT_SECRET_KEY') or ''
-    if not jk or 'change-in-production' in jk:
-        missing.append('JWT_SECRET_KEY (set a strong random value in Space secrets)')
-    if missing:
-        raise RuntimeError(
-            'Production deployment requires these secrets to be set: ' + '; '.join(missing) +
-            '. Add them in your Hugging Face Space → Settings → Repository secrets.'
-        )
 
 # Initialize extensions
 db.init_app(app)
 jwt = JWTManager(app)
 
-# CORS: allow remote browsers (required for Hugging Face Spaces / public web access)
-_cors_origins = os.environ.get('CORS_ORIGINS', '*')
-_origins_list = _cors_origins.split(',') if _cors_origins != '*' else '*'
-CORS(
-    app,
-    resources={r'/*': {'origins': _origins_list}},
-    supports_credentials=(_origins_list != '*'),  # credentials only with specific origins
-    allow_headers=['Content-Type', 'Authorization'],
-    methods=['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
-)
-
-# Ensure instance folder exists and create database tables once
-instance_path = os.path.join(app.root_path, 'instance')
-os.makedirs(instance_path, exist_ok=True)
-with app.app_context():
-    db.create_all()
+# Create database tables if they don't exist
+try:
+    with app.app_context():
+        db.create_all()
+except Exception as e:
+    print(f'Database table creation notice: {e}')
 
 # Create upload folder
-Path(app.config['UPLOAD_FOLDER']).mkdir(parents=True, exist_ok=True)
+try:
+    Path(app.config['UPLOAD_FOLDER']).mkdir(parents=True, exist_ok=True)
+except Exception as e:
+    print(f'Upload folder creation notice: {e}')
 
 # Initialize services (lazy loading)
 simplification_service = None
@@ -201,6 +187,9 @@ def dashboard():
         return redirect(url_for('login'))
     
     user = User.query.get(session['user_id'])
+    if not user:
+        session.clear()
+        return redirect(url_for('login'))
     recent_requests = SimplificationRequest.query.filter_by(
         user_id=user.id
     ).order_by(SimplificationRequest.created_at.desc()).limit(10).all()
@@ -208,55 +197,300 @@ def dashboard():
     stats = {
         'total_requests': user.simplification_requests.count(),
         'recent_requests': recent_requests
-=======
-def simplify_text(text):
-    replacements = {
-        "hereinafter": "from now on",
-        "aforementioned": "mentioned earlier",
-        "pursuant to": "under",
-        "in accordance with": "according to",
-        "notwithstanding": "despite",
-        "shall": "must",
-        "terminate": "end",
-        "commence": "start",
->>>>>>> 2c3dc39751b0a3a237e162d794aa2a458c90aec2
     }
-
-    for word, simple in replacements.items():
-        text = re.sub(rf"\b{word}\b", simple, text, flags=re.IGNORECASE)
-
-    return text
+    
+    return render_template('dashboard.html', user=user, stats=stats)
 
 
-def summarize_text(text):
-    sentences = re.split(r'(?<=[.!?]) +', text)
-    return " ".join(sentences[:2])
+@app.route('/simplify', methods=['GET', 'POST'])
+def simplify():
+    """Main simplification interface"""
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    
+    if request.method == 'POST':
+        # Get input text
+        text = request.form.get('text', '').strip()
+        level = request.form.get('level', 'intermediate')
+        
+        # Handle file upload
+        if 'file' in request.files:
+            file = request.files['file']
+            if file and file.filename:
+                if file.filename.endswith('.txt'):
+                    text = file.read().decode('utf-8')
+        
+        if not text:
+            flash('Please provide text to simplify', 'warning')
+            return render_template('simplify.html')
+        
+        if len(text) < 10:
+            flash('Text is too short. Please provide at least 10 characters.', 'warning')
+            return render_template('simplify.html')
+        
+        try:
+            start_time = time.time()
+            
+            # Initialize services
+            simp_service, summ_service = get_services()
+            preprocessor = get_preprocessor()
+            readability_analyzer = get_readability_analyzer()
+            glossary_service = get_glossary_service()
+            
+            # Preprocess text
+            preprocessed = preprocessor.preprocess(text)
+            cleaned_text = preprocessed['cleaned_text']
+            
+            # Calculate readability before
+            readability_before = readability_analyzer.analyze(cleaned_text)
+            
+            # Import the new ML tools
+            from src.summarizer import summarize_text_extractive
+            from src.preservation_checker import check_preservation
+            from src.preprocessing import preprocess_contract
+            from src.simplifier import simplify_clause
+            
+            # Split text into clauses and process
+            clauses = preprocess_contract(cleaned_text)
+            if not clauses: clauses = [cleaned_text]
+            
+            final_simplified_clauses = []
+            preservation_reports = []
+            
+            for original_clause in clauses:
+                simplified_clause = simplify_clause(original_clause, level=level)
+                report = check_preservation(original_clause, simplified_clause)
+                
+                # Auto Correction Loop
+                if report['risk_level'] == "HIGH":
+                    simplified_clause = simplify_clause(original_clause, level="Advanced")
+                    report = check_preservation(original_clause, simplified_clause)
+                    if report['risk_level'] == "HIGH":
+                        simplified_clause = original_clause
+                        report = check_preservation(original_clause, simplified_clause)
+
+                final_simplified_clauses.append(simplified_clause)
+                preservation_reports.append({
+                    "original": original_clause,
+                    "simplified": simplified_clause,
+                    "report": report
+                })
+                
+            simplified_text = " ".join(final_simplified_clauses)
+            
+            # Calculate readability after
+            readability_after = readability_analyzer.analyze(simplified_text)
+            
+            # Generate ML Extractive Summary
+            summary = summarize_text_extractive(cleaned_text, num_sentences=4)
+            
+            # Identify and highlight legal terms
+            identified_terms = glossary_service.identify_terms(simplified_text)
+            highlighted_text = glossary_service.highlight_terms(simplified_text, identified_terms)
+            
+            processing_time = time.time() - start_time
+            
+            # Save to database
+            request_record = SimplificationRequest(
+                user_id=session['user_id'],
+                original_text=text,
+                simplified_text=simplified_text,
+                summary=summary,
+                readability_before=readability_before['flesch_kincaid_grade'],
+                readability_after=readability_after['flesch_kincaid_grade'],
+                fog_index_before=readability_before['gunning_fog'],
+                fog_index_after=readability_after['gunning_fog'],
+                simplification_level=level,
+                processing_time=processing_time
+            )
+            
+            db.session.add(request_record)
+            db.session.commit()
+            
+            return render_template(
+                'simplify.html',
+                original_text=text,
+                simplified_text=simplified_text,
+                highlighted_text=highlighted_text,
+                summary=summary,
+                readability_before=readability_before,
+                readability_after=readability_after,
+                identified_terms=identified_terms,
+                preservation_reports=preservation_reports,
+                level=level,
+                processing_time=round(processing_time, 2)
+            )
+            
+        except Exception as e:
+            flash(f'Error processing text: {str(e)}', 'danger')
+            print(f"Error: {e}")
+            import traceback
+            traceback.print_exc()
+            return render_template('simplify.html')
+    
+    return render_template('simplify.html')
 
 
-user_input = st.text_area("Enter Contract Text", height=250)
+# ============================================================================
+# ADMIN ROUTES
+# ============================================================================
 
-if st.button("Simplify"):
+@app.route('/admin')
+def admin():
+    """Admin dashboard"""
+    if 'user_id' not in session or not session.get('is_admin'):
+        flash('Access denied. Admin privileges required.', 'danger')
+        return redirect(url_for('dashboard'))
+    
+    users = User.query.all()
+    glossary_terms = Glossary.query.all()
+    recent_requests = SimplificationRequest.query.order_by(
+        SimplificationRequest.created_at.desc()
+    ).limit(20).all()
+    
+    stats = {
+        'total_users': User.query.count(),
+        'total_requests': SimplificationRequest.query.count(),
+        'total_glossary_terms': Glossary.query.count()
+    }
+    
+    return render_template(
+        'admin.html',
+        users=users,
+        glossary_terms=glossary_terms,
+        recent_requests=recent_requests,
+        stats=stats
+    )
 
-    if not user_input.strip():
-        st.warning("Enter text first")
+
+@app.route('/admin/glossary/add', methods=['POST'])
+def add_glossary_term():
+    """Add new glossary term"""
+    if 'user_id' not in session or not session.get('is_admin'):
+        return jsonify({'error': 'Unauthorized'}), 403
+    
+    term = request.form.get('term')
+    explanation = request.form.get('explanation')
+    category = request.form.get('category', '')
+    
+    if not term or not explanation:
+        flash('Term and explanation are required', 'danger')
+        return redirect(url_for('admin'))
+    
+    glossary_service = get_glossary_service()
+    
+    try:
+        glossary_service.add_term(term, explanation, session['user_id'], category)
+        flash(f'Term "{term}" added successfully', 'success')
+    except Exception as e:
+        flash(f'Error adding term: {str(e)}', 'danger')
+    
+    return redirect(url_for('admin'))
+
+
+@app.route('/admin/glossary/delete/<int:term_id>', methods=['POST'])
+def delete_glossary_term(term_id):
+    """Delete glossary term"""
+    if 'user_id' not in session or not session.get('is_admin'):
+        return jsonify({'error': 'Unauthorized'}), 403
+    
+    glossary_service = get_glossary_service()
+    
+    if glossary_service.delete_term(term_id):
+        flash('Term deleted successfully', 'success')
     else:
-        simplified = simplify_text(user_input)
-        summary = summarize_text(user_input)
+        flash('Term not found', 'danger')
+    
+    return redirect(url_for('admin'))
 
-        col1, col2 = st.columns(2)
 
-        with col1:
-            st.subheader("Original")
-            st.write(user_input)
+# ============================================================================
+# API ROUTES (for future extensions)
+# ============================================================================
 
-        with col2:
-            st.subheader("Simplified")
-            st.write(simplified)
+@app.route('/api/simplify', methods=['POST'])
+@jwt_required()
+def api_simplify():
+    """API endpoint for text simplification"""
+    data = request.get_json()
+    
+    if not data or 'text' not in data:
+        return jsonify({'error': 'Text is required'}), 400
+    
+    text = data['text']
+    level = data.get('level', 'intermediate')
+    
+    try:
+        simp_service, _ = get_services()
+        simplified = simp_service.simplify_text(text, level=level)
+        
+        return jsonify({
+            'original': text,
+            'simplified': simplified,
+            'level': level
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
-        st.subheader("Summary")
-        st.info(summary)
 
-        score = textstat.flesch_reading_ease(simplified)
+# ============================================================================
+# ERROR HANDLERS
+# ============================================================================
 
-        st.subheader("Readability Score")
-        st.write(score)
+@app.errorhandler(404)
+def not_found(error):
+    """404 error handler"""
+    return render_template('404.html'), 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    """500 error handler"""
+    db.session.rollback()
+    return render_template('500.html'), 500
+
+
+# ============================================================================
+# DATABASE INITIALIZATION
+# ============================================================================
+
+@app.cli.command()
+def init_db():
+    """Initialize database"""
+    db.create_all()
+    print("Database initialized successfully!")
+
+
+@app.cli.command()
+def create_admin():
+    """Create admin user"""
+    username = input("Admin username: ")
+    email = input("Admin email: ")
+    password = input("Admin password: ")
+    
+    user = User(username=username, email=email, is_admin=True)
+    user.set_password(password)
+    
+    db.session.add(user)
+    db.session.commit()
+    
+    print(f"Admin user '{username}' created successfully!")
+
+
+# ============================================================================
+# APPLICATION ENTRY POINT
+# ============================================================================
+
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()
+        print("Database tables created!")
+    
+    print("Starting Contract Language Simplifier...")
+    print(f"Access the application at: http://localhost:5000")
+    
+    app.run(
+        host='0.0.0.0',
+        port=5000,
+        debug=app.config['DEBUG']
+    )

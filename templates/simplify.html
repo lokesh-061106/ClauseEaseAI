@@ -127,6 +127,48 @@
                 </div>
                 {% endif %}
                 
+                <!-- Preservation Checker Section -->
+                {% if preservation_reports %}
+                <div class="mt-4">
+                    <h5 class="mb-3">
+                        <i class="bi bi-shield-check"></i> Preservation Checker
+                    </h5>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Original</th>
+                                    <th>Simplified</th>
+                                    <th>Risk Level</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for item in preservation_reports %}
+                                <tr class="{% if item.report.risk_level == 'HIGH' %}table-danger{% elif item.report.risk_level == 'MEDIUM' %}table-warning{% endif %}">
+                                    <td>{{ item.original[:100] }}...</td>
+                                    <td>{{ item.simplified[:100] }}...</td>
+                                    <td>
+                                        <span class="badge {% if item.report.risk_level == 'HIGH' %}bg-danger{% elif item.report.risk_level == 'MEDIUM' %}bg-warning{% else %}bg-success{% endif %}">
+                                            {{ item.report.risk_level }}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        {% if item.report.risk_level in ['HIGH', 'MEDIUM'] %}
+                                            <strong>Changed:</strong> {{ item.report.changed|join(', ') }}<br>
+                                            <small>{{ item.report.reason }}</small>
+                                        {% else %}
+                                            Meaning Preserved
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                {% endif %}
+                
                 <!-- Legal Terms Identified -->
                 {% if identified_terms %}
                 <div class="mt-4">

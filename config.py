@@ -19,7 +19,21 @@ class Config:
     
     # Database settings
     # Local dev: SQLite in instance folder. Production/HF Spaces: set DATABASE_URL to a shared DB (e.g. PostgreSQL).
-    DB_PATH = os.path.join(BASE_DIR, 'instance', 'database.db')
+    _is_prod = os.environ.get('FLASK_ENV') == 'production' or bool(os.environ.get('VERCEL'))
+    SESSION_COOKIE_HTTPONLY = True
+    SESSION_COOKIE_SECURE = _is_prod
+    SESSION_COOKIE_SAMESITE = 'None' if _is_prod else 'Lax'
+
+    # Database settings
+    if os.environ.get('VERCEL'):
+        DB_PATH = '/tmp/database.db'
+        UPLOAD_FOLDER = Path('/tmp/uploads')
+        MODEL_CACHE_DIR = Path('/tmp/model_cache')
+    else:
+        DB_PATH = os.path.join(BASE_DIR, 'instance', 'database.db')
+        UPLOAD_FOLDER = BASE_DIR / 'uploads'
+        MODEL_CACHE_DIR = BASE_DIR / 'model_cache'
+
     _db_url = os.environ.get('DATABASE_URL')
     if _db_url and _db_url.startswith('postgres://'):
         _db_url = _db_url.replace('postgres://', 'postgresql://', 1)
@@ -36,7 +50,8 @@ class Config:
     JWT_SECRET_KEY = os.environ.get('JWT_SECRET_KEY') or 'jwt-secret-key-change-in-production'
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=24)
     JWT_TOKEN_LOCATION = ['headers', 'cookies']
-    JWT_COOKIE_SECURE = False  # Set to True in production with HTTPS
+    JWT_COOKIE_SECURE = _is_prod
+    JWT_COOKIE_SAMESITE = 'None' if _is_prod else 'Lax'
     JWT_COOKIE_CSRF_PROTECT = False
     
     # Upload settings

@@ -1,0 +1,2 @@
+dataset name,source,license,number of samples,purpose
+LEDGAR (Lextreme Subset),Hugging Face (joelito/lextreme),MIT / Open,500,Clause Classification Training

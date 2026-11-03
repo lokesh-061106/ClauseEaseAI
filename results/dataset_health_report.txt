@@ -1,0 +1,8 @@
+=== Dataset Health Report ===
+Number of samples: 5
+Missing values: {'text': 0, 'label_name': 0, 'category': 0}
+Duplicates: 0
+Average text length: 64.60 characters
+Minimum text length: 52 characters
+Maximum text length: 71 characters
+Class distribution: {'Obligation': 1, 'Termination': 1, 'Confidentiality': 1, 'General': 1, 'Payment': 1}

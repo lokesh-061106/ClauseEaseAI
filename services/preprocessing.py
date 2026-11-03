@@ -4,7 +4,6 @@ Handles text cleaning, normalization, and preparation for NLP tasks
 """
 
 import re
-import spacy
 import nltk
 from typing import List, Dict
 from pathlib import Path
@@ -22,12 +21,11 @@ class TextPreprocessor:
     def __init__(self):
         """Initialize spaCy model for text processing"""
         try:
+            import spacy
             self.nlp = spacy.load('en_core_web_sm')
-        except OSError:
-            print("Downloading spaCy model 'en_core_web_sm'...")
-            import subprocess
-            subprocess.run(['python', '-m', 'spacy', 'download', 'en_core_web_sm'], check=True)
-            self.nlp = spacy.load('en_core_web_sm')
+        except Exception as e:
+            print(f"Warning: spaCy failed to load ({e}). Falling back to NLTK/Regex.")
+            self.nlp = None
     
     def clean_text(self, text: str) -> str:
         """
@@ -61,52 +59,27 @@ class TextPreprocessor:
     
     def segment_sentences(self, text: str) -> List[str]:
         """
-        Segment text into sentences using spaCy
-        
-        Args:
-            text: Input text
-            
-        Returns:
-            List of sentences
+        Segment text into sentences
         """
-        doc = self.nlp(text)
-        sentences = [sent.text.strip() for sent in doc.sents]
-        return sentences
+        if self.nlp:
+            doc = self.nlp(text)
+            return [sent.text.strip() for sent in doc.sents]
+        return nltk.sent_tokenize(text)
     
     def tokenize(self, text: str) -> List[str]:
         """
         Tokenize text into words using NLTK
-        
-        Args:
-            text: Input text
-            
-        Returns:
-            List of tokens
         """
-        tokens = nltk.word_tokenize(text)
-        return tokens
+        return nltk.word_tokenize(text)
     
     def extract_entities(self, text: str) -> List[Dict[str, str]]:
         """
-        Extract named entities from text using spaCy
-        
-        Args:
-            text: Input text
-            
-        Returns:
-            List of entities with text and label
+        Extract named entities from text using spaCy or fallback
         """
-        doc = self.nlp(text)
-        entities = [
-            {
-                'text': ent.text,
-                'label': ent.label_,
-                'start': ent.start_char,
-                'end': ent.end_char
-            }
-            for ent in doc.ents
-        ]
-        return entities
+        if self.nlp:
+            doc = self.nlp(text)
+            return [{'text': ent.text, 'label': ent.label_, 'start': ent.start_char, 'end': ent.end_char} for ent in doc.ents]
+        return []
     
     def chunk_text(self, text: str, max_length: int = 512, overlap: int = 50) -> List[str]:
         """
